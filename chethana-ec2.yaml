@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creating a forst EC2 Instance with CloudFormation
+
+Resources:
+  ChetanaEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0a38b67213cf0c11b
+      InstanceType: t2.micro
+      KeyName: chetanajs.pem
+    Tags:
+      -
+        Key: Name
+        Value:  chetana-ec2-instance
+
+
