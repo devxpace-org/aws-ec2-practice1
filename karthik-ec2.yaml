@@ -12,6 +12,7 @@ Resources:
       -
         Key: Name
         Value:  karthikeya-ec2-instance
+        
   karthikeyaS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
