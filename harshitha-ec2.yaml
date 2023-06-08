@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creating a forst EC2 Instance with CloudFormation
+
+Resources:
+  HarshithaEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-02b4d0fc7fd1391b9
+      InstanceType: t2.micro
+      KeyName: Harshitha.pem
+    Tags:
+      -
+        Key: Name
+        Value:  Harshitha-ec2-instance
