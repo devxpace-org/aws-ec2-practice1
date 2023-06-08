@@ -1,0 +1,14 @@
+  AWSTemplateFormatVersion: 2010-09-09
+Description: Creating a forst EC2 Instance with CloudFormation
+
+Resources:
+TejaswiniEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-04e92ffd253e42a3d
+      InstanceType: t2.micro
+      KeyName: tejaswinim.pem
+    Tags:
+      -
+        Key: Name
+        Value:  tejaswini-ec2-instance
