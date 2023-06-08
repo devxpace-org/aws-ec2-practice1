@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creating a first EC2 Instance with CloudFormation
+
+Resources:
+  PraneethEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-04e92ffd253e42a3d
+      InstanceType: t2.micro
+      KeyName: praneeth.pem
+    Tags:
+      -
+        Key: Name
+        Value:  praneeth-ec2-instance
