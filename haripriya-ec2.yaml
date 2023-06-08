@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creating a forst EC2 Instance with CloudFormation
+
+Resources:
+  HaripriyaEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-09bc7e772901067eb
+      InstanceType: t2.micro
+      KeyName: haripriya.pem
+    Tags:
+      -
+        Key: Name
+        Value:  haripriya-ec2-instance
