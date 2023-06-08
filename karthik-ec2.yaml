@@ -1,6 +1,4 @@
-
-
-        AWSTemplateFormatVersion: 2010-09-09
+AWSTemplateFormatVersion: 2010-09-09
 Description: Creating a forst EC2 Instance with CloudFormation
 
 Resources:
