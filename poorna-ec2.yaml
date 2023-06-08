@@ -12,3 +12,14 @@ Resources:
       -
         Key: Name
         Value:  poorna-ec2-instance
+
+  supriyaEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-02b4d0fc7fd1391b9
+      InstanceType: t2.micro
+      KeyName: supriya.pem
+    Tags:
+      -
+        Key: Name
+        Value:  supriya-ec2-instance
