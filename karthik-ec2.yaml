@@ -1,1 +1,15 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creating a first EC2 Instance with CloudFormation
+
+Resources:
+  karthikeyaEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-065cf5d8a8da34dda
+      InstanceType: t2.micro
+      KeyName: kart.pem
+    Tags:
+      -
+        Key: Name
+        Value:  karthikeya-ec2-instance
 
