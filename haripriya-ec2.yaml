@@ -5,9 +5,9 @@ Resources:
   HaripriyaEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0d5eff06f840b45e9
+      ImageId: ami-09bc7e772901067eb
       InstanceType: t2.micro
-      KeyName: linux-tutorial03.pem
+      KeyName: haripriya.pem
     Tags:
       -
         Key: Name
