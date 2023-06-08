@@ -7,10 +7,10 @@ Resources:
   kartEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0d5eff06f840b45e9
+      ImageId: ami-04e92ffd253e42a3d
       InstanceType: t2.micro
       KeyName: linux-tutorial03.pem
     Tags:
       -
-        Key: Name
+        Key: kart
         Value:  kart-ec2-instance
