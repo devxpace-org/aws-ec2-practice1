@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: Creating a forst EC2 Instance with CloudFormation
 
 Resources:
-  PoornaEC2Instance:
+  SumanthEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-02b4d0fc7fd1391b9
